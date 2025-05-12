@@ -8,7 +8,7 @@ class RectPrism extends Rectangle { //add inhertiance to the class by using the 
 	//new instance variables - aren't in Rectangle
 	private int height;
 
-	//
+	// Constructor did not get inherited
 	public RectPrism(int length, int width, int height) {
 		/*
 		this.length = length;

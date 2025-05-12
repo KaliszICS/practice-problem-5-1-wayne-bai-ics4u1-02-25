@@ -36,7 +36,7 @@ class PracticeProblemTest {
         try {
             return clazz.getDeclaredConstructor(parameterTypes);
         } catch (NoSuchMethodException e) {
-            fail("Constructor does not exist")
+            fail("Constructor does not exist");
             return null;
         }
     }
